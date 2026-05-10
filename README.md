@@ -101,7 +101,7 @@ scenario_analysis()             # Stress test sweep across volatility regimes
 plot_simulations()              # 4-panel publication-quality risk dashboard
 ```
 
-### Mathematical Core
+### Mathematical equation
 - **GBM**:  `S(t) = S₀ · exp[(μ - σ²/2)·t + σ·√t·Z]`  where `Z ~ N(0,1)`
 - **Cholesky**: `Z_corr = L · Z_indep` where `Σ = L·Lᵀ`
 - **CVaR**: `CVaR(α) = E[Loss | Loss > VaR(α)]`
@@ -110,11 +110,11 @@ plot_simulations()              # 4-panel publication-quality risk dashboard
 
 ## Extensions
 
-### Extension A — Correlated Multi-Asset Portfolio
+### Extension A : Correlated Multi-Asset Portfolio
 Uses **Cholesky decomposition** of the correlation matrix to generate correlated Brownian motions, enabling realistic cross-asset dynamics (e.g. equity-bond flight-to-safety).
 
-### Extension B — Scenario / Volatility Shock Analysis
-Sweeps across four volatility regimes (Base → Elevated → Crisis → Meltdown) to quantify how tail risk escalates non-linearly — critical for stress-testing regulatory capital requirements.
+### Extension B : Scenario / Volatility Shock Analysis
+Sweeps across four volatility regimes (Base → Elevated → Crisis → Meltdown) to quantify how tail risk escalates non-linearly ; critical for stress-testing regulatory capital requirements.
 
 ---
 
