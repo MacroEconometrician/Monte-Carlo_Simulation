@@ -14,7 +14,7 @@ A production-grade Monte Carlo simulation engine built for quantitative trading 
 
 **How much capital is at risk over a 1-year horizon, and how does tail risk escalate under stress?**
 
-Classical closed-form risk models (e.g. parametric VaR) assume normality and constant volatility — assumptions that break down in real markets. Monte Carlo simulation relaxes these constraints by:
+Classical closed-form risk models (e.g. parametric VaR) assume normality and constant volatility, which do not hold in real markets. Monte Carlo simulation relaxes these constraints by:
 
 - Generating thousands of stochastic price paths under calibrated dynamics
 - Capturing the full empirical return distribution (including fat tails and skew)
