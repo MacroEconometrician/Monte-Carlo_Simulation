@@ -26,7 +26,7 @@ GBM is the foundation of the Black-Scholes framework and widely used for equity 
 
 ---
 
-## Project Structure
+## Project Structure: 
 
 ```
 monte_carlo_quant/
